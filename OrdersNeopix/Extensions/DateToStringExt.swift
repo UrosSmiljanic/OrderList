@@ -6,4 +6,17 @@
 //  Copyright © 2019 Uros Smiljanic. All rights reserved.
 //
 
-import Foundation
+// An extension that convert Date format to String
+
+import UIKit
+
+extension Date
+{
+    func toString( dateFormat format  : String ) -> String
+    {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = format
+        return dateFormatter.string(from: self)
+    }
+    
+}

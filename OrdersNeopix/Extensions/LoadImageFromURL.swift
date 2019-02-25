@@ -6,4 +6,20 @@
 //  Copyright © 2019 Uros Smiljanic. All rights reserved.
 //
 
-import Foundation
+// An extension that asynchronous download images from URL
+
+import UIKit
+
+extension UIImageView {
+    func load(url: URL) {
+        DispatchQueue.global().async { [weak self] in
+            if let data = try? Data(contentsOf: url) {
+                if let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        self?.image = image
+                    }
+                }
+            }
+        }
+    }
+}

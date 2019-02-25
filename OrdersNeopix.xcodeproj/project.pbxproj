@@ -8,20 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		262CC886221C177C007120F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC885221C177C007120F9 /* AppDelegate.swift */; };
-		262CC888221C177C007120F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC887221C177C007120F9 /* ViewController.swift */; };
+		262CC888221C177C007120F9 /* OrdersListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC887221C177C007120F9 /* OrdersListScreen.swift */; };
 		262CC88B221C177C007120F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262CC889221C177C007120F9 /* Main.storyboard */; };
 		262CC88D221C177D007120F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262CC88C221C177D007120F9 /* Assets.xcassets */; };
 		262CC890221C177D007120F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262CC88E221C177D007120F9 /* LaunchScreen.storyboard */; };
+		262CC89C221C3161007120F9 /* FetchGenericData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC89B221C3161007120F9 /* FetchGenericData.swift */; };
+		262CC89E221C3194007120F9 /* LoadImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC89D221C3194007120F9 /* LoadImageFromURL.swift */; };
+		262CC8A0221C322C007120F9 /* SpinnerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC89F221C322C007120F9 /* SpinnerExt.swift */; };
+		262CC8A2221C326E007120F9 /* UIViewLayoutExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC8A1221C326E007120F9 /* UIViewLayoutExt.swift */; };
+		262CC8A6221C32C4007120F9 /* OrderDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC8A5221C32C4007120F9 /* OrderDetailScreen.swift */; };
+		262CC8A8221C38AB007120F9 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC8A7221C38AB007120F9 /* BaseCollectionViewCell.swift */; };
+		262CC8AA221C394D007120F9 /* OrdersListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC8A9221C394D007120F9 /* OrdersListModel.swift */; };
+		262CC8AC221C395A007120F9 /* OrdersListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC8AB221C395A007120F9 /* OrdersListCell.swift */; };
+		262CC8AE221C47B2007120F9 /* DateToStringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC8AD221C47B2007120F9 /* DateToStringExt.swift */; };
+		262CC8B0221C4D79007120F9 /* HexColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262CC8AF221C4D79007120F9 /* HexColorExt.swift */; };
+		2697C95B221D862500D458FB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697C95A221D862500D458FB /* HeaderView.swift */; };
+		2697C96B221EF9BB00D458FB /* OrderDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697C96A221EF9BB00D458FB /* OrderDetailCell.swift */; };
+		2697C96D221F014400D458FB /* OrdersDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697C96C221F014400D458FB /* OrdersDetail.swift */; };
+		26A7433D2220496300C3EE0B /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26A7433B222048E500C3EE0B /* Metropolis-Bold.otf */; };
+		26A7433F2220497000C3EE0B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A7433E2220496C00C3EE0B /* Roboto-Bold.ttf */; };
+		26A7434122204AB500C3EE0B /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26A7434022204AB000C3EE0B /* Metropolis-SemiBold.otf */; };
+		26A7434322204AF200C3EE0B /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26A7434222204AEE00C3EE0B /* Metropolis-Medium.otf */; };
+		26A7434522230B0C00C3EE0B /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A7434422230B0C00C3EE0B /* UserInfoModel.swift */; };
+		26A7434722230CA700C3EE0B /* LabelLineHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A7434622230CA700C3EE0B /* LabelLineHeight.swift */; };
+		26A743492223FF3B00C3EE0B /* StringMakeCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A743482223FF3B00C3EE0B /* StringMakeCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		262CC882221C177C007120F9 /* OrdersNeopix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrdersNeopix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		262CC885221C177C007120F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		262CC887221C177C007120F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		262CC887221C177C007120F9 /* OrdersListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListScreen.swift; sourceTree = "<group>"; };
 		262CC88A221C177C007120F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		262CC88C221C177D007120F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		262CC88F221C177D007120F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		262CC891221C177D007120F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262CC89B221C3161007120F9 /* FetchGenericData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchGenericData.swift; sourceTree = "<group>"; };
+		262CC89D221C3194007120F9 /* LoadImageFromURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageFromURL.swift; sourceTree = "<group>"; };
+		262CC89F221C322C007120F9 /* SpinnerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerExt.swift; sourceTree = "<group>"; };
+		262CC8A1221C326E007120F9 /* UIViewLayoutExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewLayoutExt.swift; sourceTree = "<group>"; };
+		262CC8A5221C32C4007120F9 /* OrderDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailScreen.swift; sourceTree = "<group>"; };
+		262CC8A7221C38AB007120F9 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		262CC8A9221C394D007120F9 /* OrdersListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListModel.swift; sourceTree = "<group>"; };
+		262CC8AB221C395A007120F9 /* OrdersListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListCell.swift; sourceTree = "<group>"; };
+		262CC8AD221C47B2007120F9 /* DateToStringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToStringExt.swift; sourceTree = "<group>"; };
+		262CC8AF221C4D79007120F9 /* HexColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorExt.swift; sourceTree = "<group>"; };
+		2697C95A221D862500D458FB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2697C96A221EF9BB00D458FB /* OrderDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailCell.swift; sourceTree = "<group>"; };
+		2697C96C221F014400D458FB /* OrdersDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersDetail.swift; sourceTree = "<group>"; };
+		26A7433B222048E500C3EE0B /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		26A7433E2220496C00C3EE0B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		26A7434022204AB000C3EE0B /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		26A7434222204AEE00C3EE0B /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Medium.otf"; sourceTree = "<group>"; };
+		26A7434422230B0C00C3EE0B /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		26A7434622230CA700C3EE0B /* LabelLineHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelLineHeight.swift; sourceTree = "<group>"; };
+		26A743482223FF3B00C3EE0B /* StringMakeCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringMakeCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +94,90 @@
 		262CC884221C177C007120F9 /* OrdersNeopix */ = {
 			isa = PBXGroup;
 			children = (
+				26A743342220467600C3EE0B /* Fonts */,
+				262CC89A221C3117007120F9 /* BaseCells */,
+				262CC899221C310D007120F9 /* Screens */,
+				262CC898221C3104007120F9 /* Networking */,
+				262CC897221C30FA007120F9 /* Extensions */,
 				262CC885221C177C007120F9 /* AppDelegate.swift */,
-				262CC887221C177C007120F9 /* ViewController.swift */,
 				262CC889221C177C007120F9 /* Main.storyboard */,
 				262CC88C221C177D007120F9 /* Assets.xcassets */,
 				262CC88E221C177D007120F9 /* LaunchScreen.storyboard */,
 				262CC891221C177D007120F9 /* Info.plist */,
 			);
 			path = OrdersNeopix;
+			sourceTree = "<group>";
+		};
+		262CC897221C30FA007120F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				262CC89D221C3194007120F9 /* LoadImageFromURL.swift */,
+				262CC89F221C322C007120F9 /* SpinnerExt.swift */,
+				262CC8A1221C326E007120F9 /* UIViewLayoutExt.swift */,
+				262CC8AD221C47B2007120F9 /* DateToStringExt.swift */,
+				262CC8AF221C4D79007120F9 /* HexColorExt.swift */,
+				26A7434622230CA700C3EE0B /* LabelLineHeight.swift */,
+				26A743482223FF3B00C3EE0B /* StringMakeCall.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		262CC898221C3104007120F9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				262CC89B221C3161007120F9 /* FetchGenericData.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		262CC899221C310D007120F9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				262CC8A4221C329B007120F9 /* Order Detail */,
+				262CC8A3221C328C007120F9 /* Orders List */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		262CC89A221C3117007120F9 /* BaseCells */ = {
+			isa = PBXGroup;
+			children = (
+				262CC8A7221C38AB007120F9 /* BaseCollectionViewCell.swift */,
+			);
+			path = BaseCells;
+			sourceTree = "<group>";
+		};
+		262CC8A3221C328C007120F9 /* Orders List */ = {
+			isa = PBXGroup;
+			children = (
+				262CC887221C177C007120F9 /* OrdersListScreen.swift */,
+				262CC8A9221C394D007120F9 /* OrdersListModel.swift */,
+				262CC8AB221C395A007120F9 /* OrdersListCell.swift */,
+				2697C95A221D862500D458FB /* HeaderView.swift */,
+			);
+			path = "Orders List";
+			sourceTree = "<group>";
+		};
+		262CC8A4221C329B007120F9 /* Order Detail */ = {
+			isa = PBXGroup;
+			children = (
+				262CC8A5221C32C4007120F9 /* OrderDetailScreen.swift */,
+				2697C96A221EF9BB00D458FB /* OrderDetailCell.swift */,
+				2697C96C221F014400D458FB /* OrdersDetail.swift */,
+				26A7434422230B0C00C3EE0B /* UserInfoModel.swift */,
+			);
+			path = "Order Detail";
+			sourceTree = "<group>";
+		};
+		26A743342220467600C3EE0B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				26A7433B222048E500C3EE0B /* Metropolis-Bold.otf */,
+				26A7434022204AB000C3EE0B /* Metropolis-SemiBold.otf */,
+				26A7434222204AEE00C3EE0B /* Metropolis-Medium.otf */,
+				26A7433E2220496C00C3EE0B /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +240,10 @@
 			files = (
 				262CC890221C177D007120F9 /* LaunchScreen.storyboard in Resources */,
 				262CC88D221C177D007120F9 /* Assets.xcassets in Resources */,
+				26A7433D2220496300C3EE0B /* Metropolis-Bold.otf in Resources */,
+				26A7433F2220497000C3EE0B /* Roboto-Bold.ttf in Resources */,
+				26A7434122204AB500C3EE0B /* Metropolis-SemiBold.otf in Resources */,
+				26A7434322204AF200C3EE0B /* Metropolis-Medium.otf in Resources */,
 				262CC88B221C177C007120F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +255,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				262CC888221C177C007120F9 /* ViewController.swift in Sources */,
+				262CC888221C177C007120F9 /* OrdersListScreen.swift in Sources */,
+				262CC8A8221C38AB007120F9 /* BaseCollectionViewCell.swift in Sources */,
 				262CC886221C177C007120F9 /* AppDelegate.swift in Sources */,
+				262CC8A2221C326E007120F9 /* UIViewLayoutExt.swift in Sources */,
+				262CC8A6221C32C4007120F9 /* OrderDetailScreen.swift in Sources */,
+				26A7434522230B0C00C3EE0B /* UserInfoModel.swift in Sources */,
+				26A743492223FF3B00C3EE0B /* StringMakeCall.swift in Sources */,
+				262CC8AA221C394D007120F9 /* OrdersListModel.swift in Sources */,
+				26A7434722230CA700C3EE0B /* LabelLineHeight.swift in Sources */,
+				262CC89C221C3161007120F9 /* FetchGenericData.swift in Sources */,
+				262CC8A0221C322C007120F9 /* SpinnerExt.swift in Sources */,
+				262CC8AC221C395A007120F9 /* OrdersListCell.swift in Sources */,
+				262CC8B0221C4D79007120F9 /* HexColorExt.swift in Sources */,
+				262CC89E221C3194007120F9 /* LoadImageFromURL.swift in Sources */,
+				262CC8AE221C47B2007120F9 /* DateToStringExt.swift in Sources */,
+				2697C96B221EF9BB00D458FB /* OrderDetailCell.swift in Sources */,
+				2697C95B221D862500D458FB /* HeaderView.swift in Sources */,
+				2697C96D221F014400D458FB /* OrdersDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +427,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PanaceaTech.OrdersNeopix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,6 +446,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PanaceaTech.OrdersNeopix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
